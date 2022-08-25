@@ -1,0 +1,185 @@
+/*Generales*/
+
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+    background-color: #343a40;
+    background-image: url("../src/banner.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    max-width: 100%;
+    padding: 0%;
+    color: white;
+}
+section{
+    background-color: rgb(45, 50, 54);
+    color: #f8f9fa
+}
+div{
+    color: white;
+    padding: 0%;
+    margin: 0%;
+}
+
+/*header*/
+
+/*nav*/
+
+#logofb{
+    width: 50px;
+}
+#logotw{
+    width: 48px;
+}
+#logoig{
+    width: 36px;
+    margin-left: 6px;
+}
+#logoin{
+    width: 50px;
+}
+#logogh{
+    width: 38px;
+    margin-left: 6px;
+}
+.logo{
+    width: 100px;
+}
+#colormis{
+    color: #FFFF00;
+}
+
+/*bg*/
+
+.bg-dark {
+    background-color: transparent !important;
+}
+.nombre{
+    width: 100%;
+    text-align: center;
+    top: 300px;
+    position: absolute;
+    font-size: 40px;
+    color: white;
+}
+.yellow{
+    color: #FFFF00;
+}
+
+/*About Me*/
+
+@media (min-width: 960px){
+    #AM{
+        padding-top: 90%;
+    }
+    
+    /*imagen*/
+    
+    #profileph{
+        margin-left: 10%;
+        text-align: center;
+        width: 350px;
+    }
+    #image{
+        width: 100%;
+        border-radius: 20px;
+        border: #FFFF00 solid 1px;
+    }
+    
+    /*texto*/
+    
+    #About{
+        text-align: center;
+        margin-right: 10%;
+        margin-top: 50px;
+        margin-bottom: 43px;
+        padding-top: 60px;
+        border: solid 1px #FFFF00;
+        border-radius: 40px;
+        background-color: #2d3236;
+    }
+}
+
+@media(max-width: 961px){
+    #AM{
+        
+    }
+    
+    /*imagen*/
+    
+    #profileph{
+        text-align: center;
+        width: 350px;
+        margin: 0%;
+    }
+    #image{
+        width: 100%;
+        border-radius: 20px;
+        border: #FFFF00 solid 1px;
+    }
+    
+    /*texto*/
+    
+    #About{
+        text-align: center;
+        padding-right: 200px;
+        padding-top: 100px;
+    }
+}
+
+#Micolor{
+    color: #FFFF00;
+}
+#stack{
+    color: #FFFF00;
+}
+#sobremi{
+    border-bottom: dotted #FFFF00 1px;
+    margin-bottom: 20px;
+}
+
+/*Experiencia*/
+
+#Ex{
+    padding-top: 70%;
+    text-align: center;
+}
+#phs{
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+/*educacion*/
+
+#Ed{
+    padding-top: 70%;
+    padding-bottom: 100px;
+    text-align: center;
+}
+#formacion{
+    color: #FFFF00;
+}
+
+/*skills*/
+
+#skills{
+    text-align: center;
+    padding-top: 70%;
+    padding-bottom: 70%;
+}
+#html{
+    width: 100px;
+}
+#css{
+    width: 100px;
+}
+#js{
+    width: 100px;
+}
