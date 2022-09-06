@@ -74,7 +74,11 @@ div{
 
 /*About Me*/
 
-@media (min-width: 960px){
+#About{
+    padding: 0%;
+}
+
+@media (min-width: 990px){
     #AM{
         padding-top: 90%;
     }
@@ -85,6 +89,7 @@ div{
         margin-left: 10%;
         text-align: center;
         width: 350px;
+        margin-right: 0%;
     }
     #image{
         width: 100%;
@@ -94,11 +99,11 @@ div{
     
     /*texto*/
     
-    #About{
+    #aboutxd{
         text-align: center;
-        margin-right: 10%;
         margin-top: 50px;
-        margin-bottom: 43px;
+        margin-left: 50px;
+        margin-right: 150px;
         padding-top: 60px;
         border: solid 1px #FFFF00;
         border-radius: 40px;
@@ -106,17 +111,20 @@ div{
     }
 }
 
-@media(max-width: 961px){
+@media(max-width: 991px){
     #AM{
-        
+        padding-top: 130%;
     }
     
     /*imagen*/
+
+    #centerimage{
+        text-align: center;
+    }
     
     #profileph{
         text-align: center;
         width: 350px;
-        margin: 0%;
     }
     #image{
         width: 100%;
@@ -126,10 +134,16 @@ div{
     
     /*texto*/
     
-    #About{
+    #aboutxd{
+        width: 50%;
         text-align: center;
-        padding-right: 200px;
-        padding-top: 100px;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 150px;
+        padding-top: 60px;
+        border: solid 1px #FFFF00;
+        border-radius: 40px;
+        background-color: #2d3236;
     }
 }
 
